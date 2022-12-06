@@ -1,0 +1,159 @@
+This is a template file in order to help add additonal webpages.
+
+Titles
+	Only the title of the webpage should use "<h1>" tags, every other heading 
+	should be smaller
+
+	Secondary headings should cover specific ideas within the main title and
+	use "<h2>" tags; secondary headings cover more specific areas of the title
+
+	Tertiary headings should use "<h>" tags and should cover more specific areas 
+	of the secondary headings
+
+	EXAMPLE:
+	TITLE: Food
+	SECONDARY HEADING: Fruit
+	TERTIARY HEAdING: Apples
+
+Text
+	 Most text should be formatted with the "<p>"
+	 
+	 Use "<b>" on titles within "<ol>"/"<ul>" in order to emphasize them
+	 
+	 Keep in mind using "<i>" on smaller texts presents an accessibility issue
+	 
+	 "<b class="blue">" should be used on VERY important information like
+	 the names of policies or programs
+	 
+	 links should be labeled clearly to where they will send users
+	 
+Asides and Images
+	the " alt=' ' " section within the "<img>" tag should be a shortened form of 
+	the file name
+	
+	contain all images within "<figure>" tags to allow for "<figcaption>" tags
+	which allow for captioning images
+	
+	"<aside>" should be used on helpful advice or very important oinformation 
+	that is relatively shorter than the other texts. It should be something
+	you want to guarentee the viewer sees.
+	
+Try to avoid: quaternary headings, over using headings, overusing "<p>",
+			  large walls of text, similar font colors to the background,
+			  very bright colors, very small text, unbalanced text structures,
+			  etc...etc...
+TEMPLATE:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset ="utf-8">
+	
+	<title> 
+	Research Paper Toolbox
+	</title>
+</head>
+<div class="topnav">
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/tcproject.html">
+			Home
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/PlaceHolder.html">
+			Topic
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/realres.html">
+			Research
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/data.html">
+			Data
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/PlaceHolder.html">
+			References
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/PlaceHolder.html">
+			Style
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/PlaceHolder.html">
+			Layout
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/PlaceHolder.html">
+			Modality
+		</a>
+		<a href="file:///C:/Users/jamal/Downloads/tcproject/PlaceHolder.html">
+			Professionalization
+		</a>
+	</div>
+<body>
+	<h1>
+		ENTER TITLE HERE
+	</h1>
+	<h2>
+		ENTER SECONDARY HEADING HERE
+	</h2>
+	<h3>
+		ENTER TERTIARY HEADING HERE
+	</h3>
+	<p>
+		Importnat text that is relatively lengthy. 
+		<b>
+			IMPORTANT WORD
+		</b>
+		that is not as important as this
+		<b class="blue">
+			VERY IMPORTANT WORD
+		</B>
+		.
+		Also, I want people to focus on this 
+		<i>
+			word
+		</i>
+		.
+	</p>
+	<ol>
+		<li>
+			one
+			<ul>
+				<li>
+					fun
+				</li>
+				<li>
+					none
+				</li>
+			</ul>
+		</li>
+		<li>
+			two
+			<ul>
+				<li>
+					who
+				</li>
+				<li>
+					knew
+				</li>
+			</ul>
+		</li>
+		<li>
+			three
+			<ul>
+				<li>
+					see
+				</li>
+				<li>
+					we
+				</li>
+			</ul>
+		</li>
+	</ol>
+	<aside>
+		advice and or instructions
+	</aside>
+	<figure>
+		<img="image path copied from files" alt="shortened file name">
+		<figcaption>
+			image caption
+		</figcaption>
+	</figure>
+	<a href=url>
+		hyperlink
+	</a>
+</body>
