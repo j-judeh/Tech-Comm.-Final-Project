@@ -3,7 +3,7 @@ html,body{
 	margin:0;
 }
 body {
-  background-color: azure;
+  background-color: #FFFFFF;
 }
 aside {
 	background-color: white;
@@ -15,6 +15,10 @@ aside {
     font-style: italic;
     color: black;
 }
+
+div.important {
+  text-align: center;
+}
 *{
 	font-family: Arial;
 }
@@ -23,16 +27,19 @@ aside > p {
     margin: .5rem;
 }
 h1 {
-  color: black;
+  color: #ff9e00;
   margin-left: 20px;
 }
 h2 {
-	color: black;
+	color: #ff9e00;
 	margin-left:20px;
 }
 h3 {
-	color: black;
+	color: #ff9e00;
 	margin-left:20px;
+}
+li {
+  font-size: 10px;
 }
 p{
   text-indent: 40px;
@@ -57,7 +64,7 @@ p{
 	}
 	
 .topnav {
-  background-color: #333;
+  background-color: #0874b4;
   overflow: hidden;
 }
 .topnav a {
@@ -69,7 +76,7 @@ p{
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ff9e00;
   color: black;
 }
 .topnav a.active {
